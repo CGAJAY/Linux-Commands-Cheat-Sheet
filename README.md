@@ -41,8 +41,8 @@ These commands will help you manage files and directories efficiently in Linux. 
 | `less <file>` | Allows scrolling through a file's content. |
 | `head <file>` | Displays the first 10 lines of a file. |
 | `tail <file>` | Displays the last 10 lines of a file. |
-| `echo "text" > file.txt` | Writes text to a file (overwrites). |
-| `echo "text" >> file.txt` | Appends text to a file. |
+| `echo "text" > file.txt` | Writes text to a file, replacing existing content. |
+| `echo "text" >> file.txt` | Adds text to the end of a file without removing existing content. |
 
 ---
 
@@ -110,6 +110,8 @@ These commands will help you manage files and directories efficiently in Linux. 
 | `passwd <username>` | Changes the password for a user. |
 | `deluser <username>` | Deletes a user account. |
 | `sudo <command>` | Runs a command with superuser privileges. |
+| `su <username>` | Switches to another user account. |
+| `id <username>` | Displays the user ID (UID) and group ID (GID) of a user. |
 
 ---
 
